@@ -53,6 +53,7 @@ GOOGLE TECHNOLOGIES USED
 PROJECT FOLDER STRUCTURE
 --------------------------------------------------
 
+
 lib/
 ├── auth.dart
 ├── main.dart
