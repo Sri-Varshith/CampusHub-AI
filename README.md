@@ -1,54 +1,57 @@
+CampusHub AI
+============
 
-# CampusHub AI
-
-CampusHub AI is a modular, AI-powered campus application built using Flutter (by Google) and Firebase.  
+CampusHub AI is a modular, AI-powered campus application built using Flutter (by Google) and Firebase.
 It solves multiple real institute-level problems through independent yet integrated modules, all inside a single mobile app.
 
----
 
-## Modules Included
+--------------------------------------------------
+MODULES INCLUDED
+--------------------------------------------------
 
-1. **Lost & Found (AI-powered)**
-   - Post lost/found items
-   - AI similarity matching using Google Gemini API
-   - Match confidence and reasoning
-   - One-click email contact
+1) Lost & Found (AI-powered)
+- Post lost and found items
+- AI similarity matching using Google Gemini API
+- Match confidence and reasoning
+- One-click email contact
 
-2. **Campus Calendar**
-   - Month-wise calendar view
-   - Today’s and upcoming events
-   - Event details (venue, organizer, description)
+2) Campus Calendar
+- Month-wise calendar view
+- Today’s and upcoming events
+- Event details (venue, organizer, description)
 
-3. **Campus Marketplace**
-   - Buy and sell items inside campus
-   - Product cards with image, price, and category
-   - Contact seller via email
+3) Campus Marketplace
+- Buy and sell items inside campus
+- Product cards with image, price, and category
+- Contact seller via email
 
-4. **Campus Pulse (Polls)**
-   - Quick Yes/No or MCQ polls
-   - One vote per user
-   - Animated result display
+4) Campus Pulse (Polls)
+- Quick Yes/No or MCQ polls
+- One vote per user
+- Animated result display
 
-5. **MindCare AI**
-   - AI-based mental wellness chatbot
-   - Grounded responses using predefined prompts
-   - Mood buttons + free-text chat
+5) MindCare AI
+- AI-based mental wellness chatbot
+- Grounded responses using predefined prompts
+- Mood buttons and free-text chat
 
----
 
-## Google Technologies Used
+--------------------------------------------------
+GOOGLE TECHNOLOGIES USED
+--------------------------------------------------
 
 - Flutter (by Google) – Cross-platform app development
 - Firebase Authentication – Secure login
 - Cloud Firestore – Real-time database
 - Firebase Cloud Storage – Image storage
-- Google Gemini API – AI reasoning & similarity matching
+- Google Gemini API – AI reasoning and similarity matching
 - Material Design 3 – Modern UI system
 - Android Studio – Development environment
 
----
 
-## Project Folder Structure
+--------------------------------------------------
+PROJECT FOLDER STRUCTURE
+--------------------------------------------------
 
 lib/
 ├── auth.dart
@@ -87,99 +90,119 @@ lib/
 │   ├── wellness_admin.dart
 │   └── wellness_service.dart
 
----
 
-## Firestore Collections Used
+--------------------------------------------------
+FIRESTORE COLLECTIONS USED
+--------------------------------------------------
 
 items            - Lost & Found posts
 matches          - AI-generated matches
-Events           - Campus events
+events           - Campus events
 marketplace      - Buy/Sell products
 pulse_polls      - Campus polls
 wellness_chats   - Mental wellness chats
 
----
 
-## Setup Instructions
+--------------------------------------------------
+SETUP INSTRUCTIONS
+--------------------------------------------------
 
-### Prerequisites
+PREREQUISITES
 - Flutter SDK
 - Android Studio
-- Firebase project
-- Google Gemini API key
+- Firebase Project
+- Google Gemini API Key
 
----
 
-### Clone Repository
-```bash
+--------------------------------------------------
+CLONE REPOSITORY
+--------------------------------------------------
+
 git clone https://github.com/your-username/campushub-ai.git
 cd campushub-ai
 
 
-⸻
-
-Install Dependencies
+--------------------------------------------------
+INSTALL DEPENDENCIES
+--------------------------------------------------
 
 flutter pub get
 
 
-⸻
+--------------------------------------------------
+FIREBASE SETUP
+--------------------------------------------------
 
-Firebase Setup
-	1.	Create a Firebase project
-	2.	Enable Authentication (Email + Google)
-	3.	Enable Cloud Firestore and Cloud Storage
-	4.	Add Android app in Firebase Console
-	5.	Download google-services.json
-	6.	Place it in:
+1. Create a Firebase project
+2. Enable Authentication (Email + Google)
+3. Enable Cloud Firestore and Cloud Storage
+4. Add an Android app in Firebase Console
+5. Download google-services.json
+6. Place it at:
 
 android/app/google-services.json
 
 
-⸻
-
-Configure Gemini API
+--------------------------------------------------
+CONFIGURE GEMINI API
+--------------------------------------------------
 
 Open:
-
 lib/gemini_service.dart
 
 Add:
-
 const String GEMINI_API_KEY = "YOUR_API_KEY";
 
-Do the same for wellness_service.dart
-⸻
+Repeat the same step in:
+lib/wellness/wellness_service.dart
 
-Run App
+
+--------------------------------------------------
+RUN APPLICATION
+--------------------------------------------------
 
 flutter run
 
 
-⸻
+--------------------------------------------------
+DEMO VIDEO
+--------------------------------------------------
 
-Demo-https://drive.google.com/file/d/1zYiajdlKiq_Ye4mH0VL4HWCb0wP56M56/view?usp=drive_link
+Demo Link:
+https://drive.google.com/file/d/1zYiajdlKiq_Ye4mH0VL4HWCb0wP56M56/view
 
-A 3-minute demo video is provided showing:
-	•	Authentication
-	•	Dashboard with modules
-	•	Lost & Found AI matching
-	•	Calendar events
-	•	Marketplace
-	•	Polls
-	•	MindCare AI chatbot
+The demo showcases:
+- Authentication
+- Dashboard with all modules
+- Lost & Found AI matching
+- Campus Calendar
+- Marketplace
+- Polls
+- MindCare AI chatbot
 
-⸻
 
-## 📱 App Preview (Android)
+--------------------------------------------------
+ANDROID APP PREVIEW (IMAGE FILES)
+--------------------------------------------------
 
-<p align="center">
-  <img src="images/login.jpeg" width="250" />
-  <img src="images/home dashboard" width="250" />
-  <img src="images/lost and found.jpeg" width="250" />
-  <img src="images/calendar.jpeg" width="250" />
-  <img src="images/marketplace.jpeg" width="250" />
-  <img src="images/wellness.jpeg" width="250" />
-  <img src="images/pulse.jpeg" width="250" />
+Recommended image folder structure:
 
-</p>
+images/
+├── login.jpeg
+├── home dashboard.jpeg
+├── lost and found.jpeg
+├── calendar.jpeg
+├── marketplace.jpeg
+├── wellness.jpeg
+└── pulse.jpeg
+
+Note:
+- Do NOT use spaces in image file names
+- Use lowercase and underscores for best compatibility
+
+
+--------------------------------------------------
+LICENSE
+--------------------------------------------------
+
+This project is intended for educational and academic use.
