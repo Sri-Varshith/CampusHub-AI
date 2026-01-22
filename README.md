@@ -53,7 +53,7 @@ GOOGLE TECHNOLOGIES USED
 PROJECT FOLDER STRUCTURE
 --------------------------------------------------
 
-
+```
 lib/
 ├── auth.dart
 ├── main.dart
@@ -90,7 +90,7 @@ lib/
 │   ├── wellness_chat.dart
 │   ├── wellness_admin.dart
 │   └── wellness_service.dart
-
+```
 
 --------------------------------------------------
 FIRESTORE COLLECTIONS USED
@@ -187,7 +187,7 @@ ANDROID APP PREVIEW (IMAGE FILES)
 --------------------------------------------------
 
 Recommended image folder structure:
-
+```
 images/
 ├── login.jpeg
 ├── home dashboard.jpeg
@@ -196,7 +196,7 @@ images/
 ├── marketplace.jpeg
 ├── wellness.jpeg
 └── pulse.jpeg
-
+```
 Note:
 - Do NOT use spaces in image file names
 - Use lowercase and underscores for best compatibility
