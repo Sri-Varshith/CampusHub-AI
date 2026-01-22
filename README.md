@@ -190,8 +190,8 @@ Recommended image folder structure:
 ```
 images/
 ├── login.jpeg
-├── home dashboard.jpeg
-├── lost and found.jpeg
+├── home_dashboard.jpeg
+├── lost_and_found.jpeg
 ├── calendar.jpeg
 ├── marketplace.jpeg
 ├── wellness.jpeg
@@ -202,6 +202,15 @@ Note:
 - Use lowercase and underscores for best compatibility
 
 
+<p align="center">
+  <img src="images/login.jpeg" width="220" />
+  <img src="images/home_dashboard.jpeg" width="220" />
+  <img src="images/lost_and_found.jpeg" width="220" />
+  <img src="images/calendar.jpeg" width="220" />
+  <img src="images/marketplace.jpeg" width="220" />
+  <img src="images/wellness.jpeg" width="220" />
+  <img src="images/pulse.jpeg" width="220" />
+</p>
 --------------------------------------------------
 LICENSE
 --------------------------------------------------
