@@ -1,3 +1,0 @@
-const CLOUD_NAME = "dmopsxmo3"; // your cloud name
-const UPLOAD_PRESET = "findit_upload"; // 
-const String GEMINI_API_KEY = "AIzaSyALUXZF6RIQT0HKzBLPLw1ybCfvcFWen7U";

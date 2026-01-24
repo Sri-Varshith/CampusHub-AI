@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-const String GEMINI_API_KEY = "AIzaSyBnFYJLY_2ZGCviQi06GKJDlg2CfXJBSjo";
+const String GEMINI_API_KEY = "";
 
 Future<Map<String, dynamic>> match(String a, String b) async {
   if (GEMINI_API_KEY.isEmpty) {

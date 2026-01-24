@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-const String GEMINI_API_KEY = "AIzaSyCDVH2SaDGMcJKU3M_8JQCeqc4ixNmGKOY";
+const String GEMINI_API_KEY = "";
 
 Future<String> getWellnessReply(String msg) async {
   final prompt = """
