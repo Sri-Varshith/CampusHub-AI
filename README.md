@@ -4,7 +4,7 @@ CampusHub AI
 CampusHub AI is a modular, AI-powered campus application built using Flutter (by Google) and Firebase.
 It solves multiple real institute-level problems through independent yet integrated modules, all inside a single mobile app.
 
-
+Website Repo - https://github.com/Swaritdixit/campus-helper
 --------------------------------------------------
 MODULES INCLUDED
 --------------------------------------------------
